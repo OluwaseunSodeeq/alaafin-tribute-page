@@ -1,0 +1,38 @@
+@media (max-width:768px){
+    main{
+        width: 100%;
+        height: auto;
+    }
+    footer ul{
+        flex-direction: column;
+        text-align: center;
+      }
+      .div2aa {
+        display: none;
+      }
+}
+@media (max-width:400px){
+    main{
+        width: 100%;
+        height: auto;
+    }
+    .div2bb img,
+    .div2aa img,
+    .third-inner img,
+    .last-div-inner img {
+     width:100%;
+  }
+  footer ul{
+    flex-direction: column;
+    text-align: center;
+  }
+  .div2aa {
+    display: none;
+  }
+  .none {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+
+}
